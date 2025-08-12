@@ -32,9 +32,9 @@ function App() {
 
         {/* Work Experience */}
         <section className='container mx-auto justify-items-center pt-16' id='Experience'>
-          <div className='w-full border-b-4 border-white'>
+          <div className='w-full'>
 
-            <h1 className='text-7xl text-right'>Relevent Experience</h1>
+            <h1 className='text-7xl text-center'>Work</h1>
           </div>
           <div className='pt-8 flex flex-col gap-4'>
             <Card
@@ -73,10 +73,10 @@ excavated job site with backhoe
 
         {/* Education */}
         <section className='container mx-auto justify-items-center pt-16' id='Education'>
-          <div className='w-full border-b-4 border-white'>
-            <h1 className='text-7xl text-left'>Education</h1>
+          <div className='w-full'>
+            <h1 className='text-7xl text-center'>Education</h1>
           </div>
-          <div className='pt-8'>
+          <div className='flex flex-col pt-8 gap-4'>
 
             <Card
               imgURL="/UP_Logo.png"
@@ -84,14 +84,43 @@ excavated job site with backhoe
               subheading="B.S. Computer Science & Engineering"
               date="2020 - 2025"
             />
+            <Card
+              imgURL="/UP_Logo.png"
+              heading="University of Portland"
+              subheading="B.S. Music"
+              date="2020 - 2025"
+            />
           </div>
         </section>
 
         {/* Projects */}
         <section id='Projects'>
-          <div className='w-full border-b-4 border-white'>
+          <div className='w-full p-8'>
 
-            <h1 className='text-7xl text-right'>Projects</h1>
+            <h1 className='text-7xl text-center'>Projects</h1>
+          </div>
+          {/* <div className='p-8'/> */}
+          <div className='flex flex-col gap-16'>
+            <div className='justify-items-center text-center bg-[#06402B] p-6 rounded-3xl'>
+              <div className='pb-4 flex flex-col gap4'>
+                <h1 className='text-5xl'>Template Website</h1>
+                <h2 className='italic font-serif'>Mega United Corporation LTD<span className='ml-8'>July 2025</span></h2>
+              </div>
+              <div className='bg-amber-100 p-4 rounded-lg'>
+                <video width={"640"} height={"360"} controls autoPlay muted loop>
+                  <source src='/megaUnited.mp4' type='video/mp4' />
+                </video>
+              </div>
+            </div>
+            <div className='justify-items-center text-center bg-[#06402B] p-6 rounded-full'>
+              <h1 className='text-5xl pt-4'>Senior Capstone MicroMouse</h1>
+              <h2 className='italic font-serif'>Mega United Corporation LTD</h2>
+              <div className='bg-amber-100 p-4 rounded-lg'>
+                <video width={"640"} height={"360"} controls autoPlay muted loop>
+                  <source src='/megaUnited.mp4' type='video/mp4' />
+                </video>
+              </div>
+            </div>
           </div>
         </section>
       </div>
