@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Galindo&family=Outfit:wght@100..900&display=swap");
 @import "tailwindcss";
 
-/* *{
-  @apply bg-black text-white relative font-sans
-  h-screen overflow-x-hidden;
-} */
+@theme{
+  --font-Galindo:'Outfit', 'sans-serif'
+}

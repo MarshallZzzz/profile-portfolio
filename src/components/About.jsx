@@ -4,14 +4,15 @@ import Skill from './skill'
 
 const About = () => {
     return (
-        <div className='w-full min-h-screen flex flex-col
+        <div className='w-full flex flex-col
     items-center justify-start px-16' id='About'>
             <div className='w-full p-16'>
                 <h1 className='text-7xl text-center underline'>About</h1>
             </div>
-            <div className='grid grid-rows-2 lg:grid-rows-2 sm:grid-cols-2 gap-4'>
-                <div className='justify-items-center'>
-                    <p className='text-bold text-3xl'>Who am I? What are my career goals? What do I want to achieve with my life?</p>
+            <div className='grid lg:grid-cols-2 sm:grid-cols-2 gap-4'>
+                <div className='justify-items-center p-16'>
+                    <img src='profile.jpg' width={"200"} height={"200"} className='pb-4 rounded-full'/>
+                    <p className='text-bold text-3xl font-Galindo'>I’m committed to the pursuit of the greater good. With strong foundations in full stack development, I strive to create technology that enables focused productivity. My bread and butter is Java, but I’m also proficient in python and C. On my free time, I like to play tennis, exercise, and cook. </p>
                 </div>
                 <div className='flex flex-col items-center'>
                      <div className="flex gap-3 md:gap-4">
